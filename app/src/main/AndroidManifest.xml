@@ -13,7 +13,7 @@
         android:theme="@style/Theme.StudySorter"
         tools:targetApi="31">
         <activity
-            android:name=".screens.MainScreen"
+            android:name=".navigation.Screens"
             android:exported="false" />
         <activity
             android:name=".Profil"
