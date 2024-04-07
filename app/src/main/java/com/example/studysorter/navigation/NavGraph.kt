@@ -10,6 +10,7 @@ import com.example.studysorter.screens.ProfileScreen
 import com.example.studysorter.screens.PrzedmiotyScreen
 import com.example.studysorter.screens.UlubioneScreen
 
+
 @Composable
 fun SetUpNavGraph(
     navController: NavHostController,
@@ -21,7 +22,7 @@ fun SetUpNavGraph(
             HomeScreen(innerPadding = innerPadding)
         }
         composable(Screens.Profile.route){
-            ProfileScreen(innerPadding = innerPadding)
+            ProfileScreen()
         }
         composable(Screens.Przedmioty.route){
             PrzedmiotyScreen(innerPadding = innerPadding)
