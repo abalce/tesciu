@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.studysorter.screens.HomeScreen
+
 import com.example.studysorter.screens.ProfileScreen
 import com.example.studysorter.screens.PrzedmiotyScreen
 import com.example.studysorter.screens.UlubioneScreen
@@ -25,7 +26,7 @@ fun SetUpNavGraph(
             ProfileScreen()
         }
         composable(Screens.Przedmioty.route){
-            PrzedmiotyScreen(innerPadding = innerPadding)
+            PrzedmiotyScreen()
         }
         composable(Screens.Ulubione.route){
             UlubioneScreen(innerPadding = innerPadding)
